@@ -1,0 +1,230 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Player - Win32 PlayM4 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Player.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\ssor\Desktop\video2BMP\VC_Demo\Player.rc"" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP428A.tmp" with contents
+[
+/nologo /MDd /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FAcs /Fa"Debug/" /FR"Debug/" /Fp"Debug/Player.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\BCMenu.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\BtnST.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\Color.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\FontSize.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\VolumeCtrl.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\XColorStatic.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\XScrollBar.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\CConvertAVI.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\WRIFF.CPP"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\CutFile.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\Dav2Pic.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\DisplayRect.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\global_def.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\HelpDlg.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\Info.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\Player.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\Seek.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\SetKeyDlg.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\UDPHelper.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\VideoCtrlDlg.cpp"
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\WatermarkDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSP428A.tmp" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP428B.tmp" with contents
+[
+/nologo /MDd /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FAcs /Fa"Debug/" /FR"Debug/" /Fp"Debug/Player.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ssor\Desktop\video2BMP\VC_Demo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSP428B.tmp" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP428C.tmp" with contents
+[
+vnplayer.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Player.pdb" /map:"Debug/Player.map" /debug /machine:I386 /out:"Debug/Player.exe" /pdbtype:sept /libpath:"..\bin\PlayM4" 
+.\Debug\BCMenu.obj
+.\Debug\BtnST.obj
+.\Debug\Color.obj
+.\Debug\FontSize.obj
+.\Debug\VolumeCtrl.obj
+.\Debug\XColorStatic.obj
+.\Debug\XScrollBar.obj
+.\Debug\CConvertAVI.obj
+.\Debug\WRIFF.OBJ
+.\Debug\CutFile.obj
+.\Debug\Dav2Pic.obj
+.\Debug\DisplayRect.obj
+.\Debug\global_def.obj
+.\Debug\HelpDlg.obj
+.\Debug\Info.obj
+.\Debug\Player.obj
+.\Debug\PlayerDlg.obj
+.\Debug\Seek.obj
+.\Debug\SetKeyDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\UDPHelper.obj
+.\Debug\VideoCtrlDlg.obj
+.\Debug\WatermarkDlg.obj
+.\Debug\Player.res
+]
+Creating command line "link.exe @C:\Users\ssor\AppData\Local\Temp\RSP428C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BCMenu.cpp
+BtnST.cpp
+c:\program files\vc6\vc98\include\mmsystem.h(1623) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1627) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1648) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1652) : warning C4201: nonstandard extension used : nameless struct/union
+Color.cpp
+FontSize.cpp
+VolumeCtrl.cpp
+XColorStatic.cpp
+XScrollBar.cpp
+CConvertAVI.cpp
+c:\program files\vc6\vc98\include\mmsystem.h(1623) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1627) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1648) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1652) : warning C4201: nonstandard extension used : nameless struct/union
+WRIFF.CPP
+c:\program files\vc6\vc98\include\mmsystem.h(1623) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1627) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1648) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1652) : warning C4201: nonstandard extension used : nameless struct/union
+CutFile.cpp
+Dav2Pic.cpp
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\Dav2Pic.cpp(46) : warning C4100: 'fileName' : unreferenced formal parameter
+DisplayRect.cpp
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\DisplayRect.cpp(243) : warning C4100: 'nSeq' : unreferenced formal parameter
+global_def.cpp
+HelpDlg.cpp
+Info.cpp
+Player.cpp
+PlayerDlg.cpp
+c:\program files\vc6\vc98\include\mmsystem.h(1623) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1627) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1648) : warning C4201: nonstandard extension used : nameless struct/union
+c:\program files\vc6\vc98\include\mmsystem.h(1652) : warning C4201: nonstandard extension used : nameless struct/union
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(97) : warning C4189: 'dwVersion' : local variable is initialized but not referenced
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(98) : warning C4189: 'dwBuild' : local variable is initialized but not referenced
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1103) : warning C4100: 'nStamp' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1100) : warning C4100: 'nPort' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1142) : warning C4100: 'nReserved1' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1141) : warning C4100: 'pFrameInfo' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1140) : warning C4100: 'nSize' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1140) : warning C4100: 'pBuf' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1140) : warning C4100: 'nPort' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1286) : warning C4100: 'lPort' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1601) : warning C4101: 'csError' : unreferenced local variable
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2506) : warning C4100: 'nDeviceNum' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2893) : warning C4189: 'ret' : local variable is initialized but not referenced
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2891) : warning C4189: 'pImageSize' : local variable is initialized but not referenced
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2935) : warning C4189: 'ret' : local variable is initialized but not referenced
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(3383) : warning C4100: 'nID' : unreferenced formal parameter
+Seek.cpp
+SetKeyDlg.cpp
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\SetKeyDlg.cpp(170) : warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
+UDPHelper.cpp
+c:\program files\vc6\vc98\include\xmemory(39) : warning C4100: '_P' : unreferenced formal parameter
+c:\program files\vc6\vc98\include\xmemory(41) : warning C4100: '_P' : unreferenced formal parameter
+c:\program files\vc6\vc98\include\xlocale(296) : warning C4663: C++ language change: to explicitly specialize class template 'codecvt' use the following syntax:
+        template<> class codecvt<unsigned short,char,int> ...
+c:\program files\vc6\vc98\include\xlocale(387) : warning C4018: '<' : signed/unsigned mismatch
+c:\program files\vc6\vc98\include\xlocale(519) : warning C4663: C++ language change: to explicitly specialize class template 'ctype' use the following syntax:
+        template<> class ctype<char> ...
+c:\program files\vc6\vc98\include\xlocale(552) : warning C4100: '_D' : unreferenced formal parameter
+c:\program files\vc6\vc98\include\xlocale(554) : warning C4100: '_D' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\UDPHelper.cpp(34) : warning C4100: 'argv' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\UDPHelper.cpp(113) : warning C4244: 'argument' : conversion from 'int' to 'unsigned short', possible loss of data
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\UDPHelper.cpp(108) : warning C4189: 'nLen' : local variable is initialized but not referenced
+c:\program files\vc6\vc98\include\xlocale(277) : warning C4100: '_State' : unreferenced formal parameter
+        c:\program files\vc6\vc98\include\xlocale(280) : while compiling class-template member function 'int __thiscall std::codecvt<char,char,int>::do_in(int &,const char *,const char *,const char *& ,char *,char *,char *& ) const'
+c:\program files\vc6\vc98\include\xlocale(282) : warning C4100: '_State' : unreferenced formal parameter
+        c:\program files\vc6\vc98\include\xlocale(285) : while compiling class-template member function 'int __thiscall std::codecvt<char,char,int>::do_out(int &,const char *,const char *,const char *& ,char *,char *,char *& ) const'
+c:\program files\vc6\vc98\include\xlocale(289) : warning C4018: '<' : signed/unsigned mismatch
+        c:\program files\vc6\vc98\include\xlocale(289) : while compiling class-template member function 'int __thiscall std::codecvt<char,char,int>::do_length(int &,const char *,const char *,unsigned int) const'
+c:\program files\vc6\vc98\include\xlocale(287) : warning C4100: '_State' : unreferenced formal parameter
+        c:\program files\vc6\vc98\include\xlocale(289) : while compiling class-template member function 'int __thiscall std::codecvt<char,char,int>::do_length(int &,const char *,const char *,unsigned int) const'
+c:\program files\vc6\vc98\include\xlocnum(179) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\program files\vc6\vc98\include\xlocnum(168) : while compiling class-template member function 'class std::istreambuf_iterator<char,struct std::char_traits<char> > __thiscall std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base &,int &,unsigned short &) const'
+c:\program files\vc6\vc98\include\xlocnum(194) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\program files\vc6\vc98\include\xlocnum(183) : while compiling class-template member function 'class std::istreambuf_iterator<char,struct std::char_traits<char> > __thiscall std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::do_get(class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::istreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base &,int &,unsigned int &) const'
+c:\program files\vc6\vc98\include\xlocnum(179) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\program files\vc6\vc98\include\xlocnum(168) : while compiling class-template member function 'class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __thiscall std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base &,int &,unsigned short &) const'
+c:\program files\vc6\vc98\include\xlocnum(194) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\program files\vc6\vc98\include\xlocnum(183) : while compiling class-template member function 'class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __thiscall std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_get(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base &,int &,unsigned int &) const'
+c:\program files\vc6\vc98\include\xlocnum(469) : warning C4018: '<=' : signed/unsigned mismatch
+        c:\program files\vc6\vc98\include\xlocnum(460) : while compiling class-template member function 'class std::ostreambuf_iterator<char,struct std::char_traits<char> > __thiscall std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base &,char,bool) const'
+c:\program files\vc6\vc98\include\xlocnum(469) : warning C4018: '<=' : signed/unsigned mismatch
+        c:\program files\vc6\vc98\include\xlocnum(460) : while compiling class-template member function 'class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __thiscall std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::do_put(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base &,unsigned short,bool) const'
+c:\program files\vc6\vc98\include\streambuf(181) : warning C4100: '_Loc' : unreferenced formal parameter
+        c:\program files\vc6\vc98\include\streambuf(182) : while compiling class-template member function 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::imbue(const class std::locale &)'
+c:\program files\vc6\vc98\include\streambuf(181) : warning C4100: '_Loc' : unreferenced formal parameter
+        c:\program files\vc6\vc98\include\streambuf(182) : while compiling class-template member function 'void __thiscall std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::imbue(const class std::locale &)'
+c:\program files\vc6\vc98\include\xlocnum(543) : warning C4018: '<=' : signed/unsigned mismatch
+        c:\program files\vc6\vc98\include\xlocnum(542) : while compiling class-template member function 'class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base &,char,const char *,unsigned int,unsigned int)'
+c:\program files\vc6\vc98\include\xlocnum(599) : warning C4018: '<' : signed/unsigned mismatch
+        c:\program files\vc6\vc98\include\xlocnum(588) : while compiling class-template member function 'class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Iput(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base &,char,char *,unsigned int)'
+c:\program files\vc6\vc98\include\xlocnum(606) : warning C4018: '<=' : signed/unsigned mismatch
+        c:\program files\vc6\vc98\include\xlocnum(588) : while compiling class-template member function 'class std::ostreambuf_iterator<char,struct std::char_traits<char> > __cdecl std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Iput(class std::ostreambuf_iterator<char,struct std::char_traits<char> >,class std::ios_base &,char,char *,unsigned int)'
+c:\program files\vc6\vc98\include\xlocnum(543) : warning C4018: '<=' : signed/unsigned mismatch
+        c:\program files\vc6\vc98\include\xlocnum(542) : while compiling class-template member function 'class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Fput(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base &,unsigned short,const char *,unsigned int,unsigned int)'
+c:\program files\vc6\vc98\include\xlocnum(599) : warning C4018: '<' : signed/unsigned mismatch
+        c:\program files\vc6\vc98\include\xlocnum(588) : while compiling class-template member function 'class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Iput(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base &,unsigned short,char *,unsigned int)'
+c:\program files\vc6\vc98\include\xlocnum(606) : warning C4018: '<=' : signed/unsigned mismatch
+        c:\program files\vc6\vc98\include\xlocnum(588) : while compiling class-template member function 'class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > __cdecl std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >::_Iput(class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> >,class std::ios_base &,unsigned short,char *,unsigned int)'
+c:\program files\vc6\vc98\include\xlocale(204) : warning C4244: '=' : conversion from 'unsigned int' to 'char', possible loss of data
+        c:\program files\vc6\vc98\include\xlocnum(151) : see reference to function template instantiation 'int __cdecl std::_Getloctxt(class std::istreambuf_iterator<char,struct std::char_traits<char> > &,class std::istreambuf_iterator<char,struct std::char_traits<char> > &,unsigned int,const char *)' being compiled
+c:\program files\vc6\vc98\include\xlocale(207) : warning C4244: '=' : conversion from 'unsigned int' to 'char', possible loss of data
+        c:\program files\vc6\vc98\include\xlocnum(151) : see reference to function template instantiation 'int __cdecl std::_Getloctxt(class std::istreambuf_iterator<char,struct std::char_traits<char> > &,class std::istreambuf_iterator<char,struct std::char_traits<char> > &,unsigned int,const char *)' being compiled
+c:\program files\vc6\vc98\include\xlocale(204) : warning C4244: '=' : conversion from 'unsigned int' to 'char', possible loss of data
+        c:\program files\vc6\vc98\include\xlocnum(151) : see reference to function template instantiation 'int __cdecl std::_Getloctxt(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > &,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > &,unsigned int,const unsigned short *)' being compiled
+c:\program files\vc6\vc98\include\xlocale(207) : warning C4244: '=' : conversion from 'unsigned int' to 'char', possible loss of data
+        c:\program files\vc6\vc98\include\xlocnum(151) : see reference to function template instantiation 'int __cdecl std::_Getloctxt(class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > &,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > &,unsigned int,const unsigned short *)' being compiled
+Generating Code...
+Compiling...
+VideoCtrlDlg.cpp
+WatermarkDlg.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP5293.tmp" with contents
+[
+/nologo /o"Debug/Player.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\BCMenu.sbr
+.\Debug\BtnST.sbr
+.\Debug\Color.sbr
+.\Debug\FontSize.sbr
+.\Debug\VolumeCtrl.sbr
+.\Debug\XColorStatic.sbr
+.\Debug\XScrollBar.sbr
+.\Debug\CConvertAVI.sbr
+.\Debug\WRIFF.SBR
+.\Debug\CutFile.sbr
+.\Debug\Dav2Pic.sbr
+.\Debug\DisplayRect.sbr
+.\Debug\global_def.sbr
+.\Debug\HelpDlg.sbr
+.\Debug\Info.sbr
+.\Debug\Player.sbr
+.\Debug\PlayerDlg.sbr
+.\Debug\Seek.sbr
+.\Debug\SetKeyDlg.sbr
+.\Debug\UDPHelper.sbr
+.\Debug\VideoCtrlDlg.sbr
+.\Debug\WatermarkDlg.sbr]
+Creating command line "bscmake.exe @C:\Users\ssor\AppData\Local\Temp\RSP5293.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Player.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

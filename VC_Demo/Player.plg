@@ -7,7 +7,7 @@
 </h3>
 <h3>Command Lines</h3>
 Creating command line "rc.exe /l 0x409 /fo"Debug/Player.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\ssor\Desktop\video2BMP\VC_Demo\Player.rc"" 
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP428A.tmp" with contents
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPDC99.tmp" with contents
 [
 /nologo /MDd /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FAcs /Fa"Debug/" /FR"Debug/" /Fp"Debug/Player.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "C:\Users\ssor\Desktop\video2BMP\VC_Demo\BCMenu.cpp"
@@ -33,14 +33,14 @@ Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP428A.tmp" with cont
 "C:\Users\ssor\Desktop\video2BMP\VC_Demo\VideoCtrlDlg.cpp"
 "C:\Users\ssor\Desktop\video2BMP\VC_Demo\WatermarkDlg.cpp"
 ]
-Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSP428A.tmp" 
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP428B.tmp" with contents
+Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSPDC99.tmp" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPDC9A.tmp" with contents
 [
 /nologo /MDd /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FAcs /Fa"Debug/" /FR"Debug/" /Fp"Debug/Player.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "C:\Users\ssor\Desktop\video2BMP\VC_Demo\StdAfx.cpp"
 ]
-Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSP428B.tmp" 
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP428C.tmp" with contents
+Creating command line "cl.exe @C:\Users\ssor\AppData\Local\Temp\RSPDC9A.tmp" 
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSPDC9B.tmp" with contents
 [
 vnplayer.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Player.pdb" /map:"Debug/Player.map" /debug /machine:I386 /out:"Debug/Player.exe" /pdbtype:sept /libpath:"..\bin\PlayM4" 
 .\Debug\BCMenu.obj
@@ -68,7 +68,7 @@ vnplayer.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Player.pdb"
 .\Debug\WatermarkDlg.obj
 .\Debug\Player.res
 ]
-Creating command line "link.exe @C:\Users\ssor\AppData\Local\Temp\RSP428C.tmp"
+Creating command line "link.exe @C:\Users\ssor\AppData\Local\Temp\RSPDC9B.tmp"
 <h3>Output Window</h3>
 Compiling resources...
 Compiling...
@@ -121,10 +121,10 @@ C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1140) : warning C4100: 'nP
 C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1286) : warning C4100: 'lPort' : unreferenced formal parameter
 C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(1601) : warning C4101: 'csError' : unreferenced local variable
 C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2506) : warning C4100: 'nDeviceNum' : unreferenced formal parameter
-C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2893) : warning C4189: 'ret' : local variable is initialized but not referenced
-C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2891) : warning C4189: 'pImageSize' : local variable is initialized but not referenced
-C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2935) : warning C4189: 'ret' : local variable is initialized but not referenced
-C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(3383) : warning C4100: 'nID' : unreferenced formal parameter
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2894) : warning C4189: 'ret' : local variable is initialized but not referenced
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2892) : warning C4189: 'pImageSize' : local variable is initialized but not referenced
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(2938) : warning C4189: 'ret' : local variable is initialized but not referenced
+C:\Users\ssor\Desktop\video2BMP\VC_Demo\PlayerDlg.cpp(3386) : warning C4100: 'nID' : unreferenced formal parameter
 Seek.cpp
 SetKeyDlg.cpp
 C:\Users\ssor\Desktop\video2BMP\VC_Demo\SetKeyDlg.cpp(170) : warning C4244: '=' : conversion from 'int' to 'char', possible loss of data
@@ -191,7 +191,7 @@ VideoCtrlDlg.cpp
 WatermarkDlg.cpp
 Generating Code...
 Linking...
-Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP5293.tmp" with contents
+Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP1E8B.tmp" with contents
 [
 /nologo /o"Debug/Player.bsc" 
 .\Debug\StdAfx.sbr
@@ -217,7 +217,7 @@ Creating temporary file "C:\Users\ssor\AppData\Local\Temp\RSP5293.tmp" with cont
 .\Debug\UDPHelper.sbr
 .\Debug\VideoCtrlDlg.sbr
 .\Debug\WatermarkDlg.sbr]
-Creating command line "bscmake.exe @C:\Users\ssor\AppData\Local\Temp\RSP5293.tmp"
+Creating command line "bscmake.exe @C:\Users\ssor\AppData\Local\Temp\RSP1E8B.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 

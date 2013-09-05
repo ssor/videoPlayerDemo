@@ -2670,7 +2670,8 @@ void CPlayerDlg::Play()
 		if(NAME(VN_PLAY_Play)(m_lPort, m_ctrlVideoPic.m_hWnd))
 		{
 			m_enumState = State_Play;
-
+			
+			// 为了调试，暂时注释
 			SetTimer(PLAY_TIMER, 500, NULL);
 
 			NAME(VN_PLAY_RefreshPlay)(m_lPort);
@@ -2892,11 +2893,13 @@ void CPlayerDlg::GetPic(char* pImage, DWORD nBufSize,long nWidth,long nHeight,lo
 	char* str_FilePath = getPicName();
     BOOL ret =	VN_PLAY_ConvertToBmpFile(pImage,nBufSize,nWidth,nHeight,nType,str_FilePath);
 	
+
+
 	//Stop();
 	Close();
 	SetState();
 	//NAME(VN_PLAY_CloseFile)(m_lPort);
-
+	SendMessage(WM_CLOSE); return;
 	return;
 	if(m_nCapPicType == 1)
 	{
